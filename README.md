@@ -2,6 +2,28 @@
 
 ## [国内码云下载地址](https://gitee.com/ShengSanYi/CS-Xmind-Note)
 
+## GitHub IDE 登录问题解决方案
+
+如果在IDE中遇到GitHub登录失败的问题（如错误码502、1001等），请参考 **[详细故障排除指南](./TROUBLESHOOTING.md)**。
+
+### 快速解决方案
+
+**错误：HTTP 502, error code: 1001 (设备流登录失败)**
+
+1. **使用Personal Access Token (推荐)**
+   - 访问 https://github.com/settings/tokens
+   - 生成新的Personal Access Token
+   - 在IDE中选择Token登录方式而非设备流
+
+2. **重启IDE并重新登录**
+   - VS Code: `Ctrl+Shift+P` → "Developer: Reload Window"
+   - 或完全重启IDE应用
+
+3. **检查网络和系统时间**
+   - 确保可以正常访问 https://github.com
+   - 确保系统时间正确
+
+更多解决方案请查看 **[完整故障排除指南](./TROUBLESHOOTING.md)**
 
 ## 专业课目录
 
